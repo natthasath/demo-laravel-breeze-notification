@@ -105,14 +105,6 @@ npm install
 npm run dev
 ```
 
-- aaa
-
-````
-php artisan make:notification NewsNotification
-php artisan make:migration create_notifications_table
-php artisan migrate
-```
-
 ### 🏆 Run
 
 - [http://localhost:8000/](http://localhost:8000/) username : `admin` password : `admin`
