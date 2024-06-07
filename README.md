@@ -1,6 +1,6 @@
 # 🎉 DEMO Laravel Breeze Notification
 
-Laravel Breeze is a lightweight, minimalistic starter kit for Laravel, providing pre-built authentication scaffolding, views, and controllers to help developers quickly set up user registration, login, and password reset functionality in their Laravel applications.
+Laravel Notification Channels are used to send notifications via various services such as SMS, Slack, and email. These channels extend Laravel's notification system, allowing developers to easily integrate and manage multiple communication platforms within their applications.
 
 ![version](https://img.shields.io/badge/version-1.0-blue)
 ![rating](https://img.shields.io/badge/rating-★★★★★-yellow)
