@@ -29,9 +29,11 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 
     Route::view('/notify-windows', 'notify-windows')->name('notify-windows');
+    Route::view('/notify-icon', 'notify-icon')->name('notify-icon');
 });
 
 Route::post('/save-subscription', [NotificationController::class, 'saveSubscription']);
 Route::post('/send-notification', [NotificationController::class, 'sendNotification']);
+Route::post('/mark-as-read', [NotificationController::class, 'markAsRead'])->name('markAsRead');
 
 require __DIR__.'/auth.php';

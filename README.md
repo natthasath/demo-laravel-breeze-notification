@@ -112,3 +112,7 @@ npm run dev
 ```shell
 php artisan serve
 ```
+
+### 📝 Notes
+
+* [Dropdown Notifications Timeline](https://jsfiddle.net/espriella/kvs0dqny/)
